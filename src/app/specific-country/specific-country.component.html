@@ -1,0 +1,16 @@
+<br>
+<div class="specific">
+    <mat-card>
+        <h2 class="h2">{{data[0]["name"]["common"] | uppercase}}</h2>
+        <mat-card-header>
+            <div class="flag">
+                <img src="{{data[0].flags.png}}" class="flags"/>
+            </div>
+        </mat-card-header>
+        
+        <mat-card-content class="content-align-left"><span>Capital:</span> {{data[0]["capital"]}}</mat-card-content>
+        <mat-card-content class="content-align-left"><span>Borders:</span> {{data[0]["borders"]}}</mat-card-content>
+        <mat-card-content class="content-align-left"><span>TimeZones:</span> {{data[0]["timezones"]}}</mat-card-content>
+        <mat-card-content class="content-align-left"><span>Region:</span> {{data[0]["region"]}}</mat-card-content>
+    </mat-card>
+</div>

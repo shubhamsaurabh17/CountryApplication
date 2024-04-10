@@ -1,0 +1,11 @@
+<div>
+
+  <mat-card>
+    <mat-card-content class="image-container">
+      <a [routerLink]="'/specific/' + country.name.common"><img src="{{ country.flags.png }}" alt="Country Flag" /> </a>
+    </mat-card-content><br>
+    <mat-card-content>{{country["name"]["common"]}}</mat-card-content>
+    <mat-card-content>{{country["capital"]}}</mat-card-content>
+    <mat-card-content>{{country["continents"]}}</mat-card-content>
+  </mat-card><br>
+</div>

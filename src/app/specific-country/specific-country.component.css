@@ -1,0 +1,32 @@
+.specific {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.content-align-left {
+    text-align: left;
+    /* text-align: justify; */
+}
+
+span{
+    color: red;
+}
+
+
+.flags{
+    margin: 0 auto;
+}
+
+.h2{
+    margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+.image-container {
+  overflow: hidden; /* Clip overflowing parts of the image */
+  width: 100%; /* Set a wider fixed width for the container */
+  height: 150px; /* Set a taller fixed height for the container */
+}
+
+.image-container img {
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  width: 90%; /* Ensure image width fills the container */
+  height: 100%; /* Ensure image height fills the container */
+}

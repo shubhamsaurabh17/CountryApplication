@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    /* Enable flexbox layout for the container */
+    flex-wrap: wrap;
+    /* Allow cards to wrap to multiple lines if needed */
+    justify-content: space-around; /* Adjust alignment of cards */
+}
+
+.card-wrapper {
+    flex: 0 0 calc(33.33% - 25px); /* Adjust card width */
+    /* Adjust spacing between cards */
+    margin: 10px;
+    /* Adjust spacing between rows */
+    margin-bottom: 10px;
+}
+
+
+  
+.example-full-width {
+    width: 40%;
+  }
+
+  .example-form{
+    text-align: center;
+  }

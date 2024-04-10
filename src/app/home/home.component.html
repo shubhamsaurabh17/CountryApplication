@@ -1,0 +1,18 @@
+<div class="home"><br>
+  <div class="search">
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <mat-label>Country</mat-label>
+        <input matInput placeholder="Enter A Country Name To Search" [(ngModel)]="search" name="search"
+          (ngModelChange)="formSubmit()">
+      </mat-form-field>
+    </form>
+  </div>
+  <div class="card-container" *ngIf="data.length > 0">
+    <app-card *ngFor="let c of data" [parentData]="c" class="card-wrapper"></app-card>
+  </div>
+
+  <div *ngIf="data.length <= 0">
+    Server Error
+  </div>
+</div>
